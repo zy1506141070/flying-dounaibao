@@ -4,8 +4,8 @@ from dataclasses import dataclass
 VERSION = "1.0.0"
 FLIGHT_HEIGHT_CM = 30
 POUR_SPEED_ML_PER_SECOND = 40
-CUP_GRIP_HANDS = 1
-CUP_TILT_DEGREES = 35
+CUP_GRIP_HANDS = 2
+CUP_TILT_DEGREES = 10
 
 
 @dataclass(frozen=True)
